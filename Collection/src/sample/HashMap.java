@@ -1,12 +1,11 @@
 package sample;
 
-import java.util.HashMap;
 import java.util.Map;
 
-public class HashMapSample {
+public class HashMap {
 
     public static void main(String[] args) {
-        Map<String, String> members = new HashMap<>();
+        Map<String, String> members = (Map<String, String>) new HashMap();
 
         // HashMapにキーと値を追加
         members.put("GK", "前川");
